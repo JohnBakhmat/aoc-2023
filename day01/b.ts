@@ -11,8 +11,6 @@ const words = [
   "nine",
 ];
 
-const reverse = (x: string) => x.split("").reverse().join("");
-
 const regex = new RegExp(`\\d|${words.join("|")}`);
 const lastregex = new RegExp(`.*(\\d|${words.join("|")})`)
 
